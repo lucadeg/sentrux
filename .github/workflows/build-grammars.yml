@@ -1,10 +1,10 @@
+
 name: Build Grammars Bundle
 
 on:
-  push:
-    tags: ['v*']  # Only on binary release tags
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: write
 
